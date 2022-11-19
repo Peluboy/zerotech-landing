@@ -1,0 +1,45 @@
+.calenderSection > h3{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.04em;
+    color: #181818;
+    padding: 40px 0px 0px 0px;
+    margin: 0;
+}
+
+.dateTime > h5{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.04em;
+    color: #403F44;
+    margin: 0;
+    /* padding: 30px 0px 10px 0px; */
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.book{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 0px 20px 0px;
+}
+
+.btn-3{
+    padding: 10px 25px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
