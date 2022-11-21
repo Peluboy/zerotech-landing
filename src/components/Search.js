@@ -3,10 +3,10 @@ import './SearchBar.css'
 import { useState } from 'react';
 import SearchIcon from '@material-ui/icons/Search';
 
+export default function Search({ placeholder, data }) {
 
-function Search ({ placeholder, data }) {
+  const [ setSearchUsername] = useState("")
 //  const [users, setUsers] = useState([])
- const [ setSearchUsername] = useState("")
 
   return (
     <div>
@@ -24,4 +24,3 @@ function Search ({ placeholder, data }) {
   )
 }
 
-export default Search

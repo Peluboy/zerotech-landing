@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 const Cloud = () => {
   return (
     <div>
-      <h1>Cloud</h1>
+      <Navbar />
     </div>
   )
 }

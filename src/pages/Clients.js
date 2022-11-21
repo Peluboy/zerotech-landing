@@ -1,10 +1,13 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 import './clients.css'
 
 const Clients = () => {
   return (
-    <div>
-      
+    <div className='clientsContainer'>
+      <div className='nav'>
+          <Navbar />
+        </div>
     </div>
   )
 }

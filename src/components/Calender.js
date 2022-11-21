@@ -2,7 +2,7 @@ import React from 'react'
 import ButtonGroup from './ButtonGroup'
 import './calender.css'
 
-const Calender = () => {
+export default function Calender() {
 
   const printButtonLabel = (event) => {
     console.log(event.target.name);
@@ -14,7 +14,8 @@ const Calender = () => {
       <div className='dateTime'>
         <h5 style={{paddingTop:30, paddingBottom:10}}>02 April 2022</h5>
         <div className='buttons'>
-          <ButtonGroup buttons={["9:30 PM", "11:30 PM", "02:30 PM", "03:45 PM", "05:00 PM"]}
+          <ButtonGroup 
+          buttons={["9:30 PM", "11:30 PM", "02:30 PM", "03:45 PM", "05:00 PM"]}
           disabled={["9:30 PM"]}
           doSomethingAfterClick={printButtonLabel}
           />
@@ -25,7 +26,7 @@ const Calender = () => {
         <h5 style={{paddingTop:20, paddingBottom:10}}>03 April 2022</h5>
         <div className='buttons'>
           <ButtonGroup buttons={["12:15 PM", "02:20 PM", "03:45 PM"]}
-          disabled={["9:30 PM"]}
+          disabled={["03:45 PM"]}
           doSomethingAfterClick={printButtonLabel}
           />
         </div>
@@ -35,7 +36,7 @@ const Calender = () => {
         <h5 style={{paddingTop:20, paddingBottom:10}}>04 April 2022</h5>
         <div className='buttons'>
           <ButtonGroup buttons={["9:30 PM", "11:30 PM", "02:30 PM"]}
-          disabled={["9:30 PM"]}
+          disabled={["11:30 PM"]}
           doSomethingAfterClick={printButtonLabel}
           />
         </div>
@@ -52,4 +53,3 @@ const Calender = () => {
   )
 }
 
-export default Calender

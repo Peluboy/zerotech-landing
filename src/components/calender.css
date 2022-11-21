@@ -43,3 +43,9 @@
     color: white;
     cursor: pointer;
 }
+
+@media (max-width:500px){
+    .buttons {
+        gap: 5px;
+    }
+}

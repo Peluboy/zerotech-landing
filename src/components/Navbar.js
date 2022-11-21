@@ -1,17 +1,20 @@
-import React from 'react'
 import './navbar.css'
+import { Link } from 'react-router-dom'
+import React from 'react'
 
-const Navbar = () => {
+export default function Navbar() {
   return (
     <>
     <div className='navbar'>
       <div className='left'>
-        <h1>MyLogo</h1>
+        <a href='/'>
+          <h1>MyLogo</h1>
+        </a>
       </div>
       <div className='right'>
         <div className='menu'>
-          <span>Check Website</span>
-          <span>Clients</span>
+            <Link to='/clients'>Clients</Link>
+            <Link to='/checkwebsite'>Check Website</Link>
         </div>
         <button className='btn-1'>Direct Call</button>
       </div>
@@ -20,4 +23,3 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
