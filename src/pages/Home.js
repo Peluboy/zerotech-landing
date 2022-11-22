@@ -8,13 +8,14 @@ import { Link } from 'react-router-dom';
 function Home() {
   return (
     <div className='Home'>
-       <div className='leftSection'>
-
-        <div className='leftContainer'>
         
         <div className='nav'>
           <Navbar />
         </div>
+
+       <div className='leftSection'>
+
+        <div className='leftContainer'>
 
         <div className='heroSection'>
           <div className='header'>

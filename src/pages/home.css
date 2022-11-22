@@ -8,9 +8,18 @@
   position: relative;
 }
 
+.nav{
+    position: absolute;
+    width: 60vw;
+    left: 0;
+    top: 0;
+    padding: 2px 70px;
+}
+
 .leftSection{
   background-color: white;
   width: 70%;
+  padding-top: 55px;
 }
 
 .leftContainer{
@@ -438,6 +447,12 @@ a{
         align-items: center;
         position: relative;
       }
+
+      .nav{
+        position: absolute;
+        padding: 0px;
+    }
+    
 
       .leftSection{
         width: 100%;
