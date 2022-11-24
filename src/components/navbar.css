@@ -75,14 +75,22 @@
   display: flex;
 }
 
-.menu > .navLink > a {
+.navLink {
+  display: flex;
+  gap: 20px;
+}
+
+.navLink > a {
     font-family: 'Mulish';
     font-weight: 600;
     cursor: pointer;
     font-size: 14px;
-    padding-left: 20px;
     text-decoration: none;
     color: #151515;
+  }
+
+  .navLink > a:hover {
+    border-bottom: 3px solid #151515;
   }
 
   .menuResponsive{
@@ -90,13 +98,22 @@
   }
 
   @media (prefers-color-scheme:dark){
-    .left > a > h1{
-      color:white;
-    }
+      .left > a > h1{
+        color:white;
+      }
 
-  .navLink > a{
-    color:white !important;
+    .navLink > a{
+      color:white !important;
+    }
+    .navLink > a:hover {
+      border-bottom: 3px solid white;
+    }
   }
+
+  @media (min-width: 481px) and (max-width: 920px) {
+    .navbar{
+      width: 80vw;
+    }
   }
 @media (max-width:500px){
  
