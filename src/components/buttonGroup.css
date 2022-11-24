@@ -20,3 +20,20 @@
     background: #efefef;
     color: black;
 }
+
+@media (prefers-color-scheme:dark){
+    .customButton {
+        background-color: white;
+    }
+
+    .customButton:disabled{
+        background: #c8c8c8;
+        color: black;
+    }
+    .active{
+        background-color: #3BBD99;
+        border: none;
+        color: white;
+    }
+    
+}

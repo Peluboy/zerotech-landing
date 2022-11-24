@@ -342,6 +342,33 @@ a{
   padding: 0px 10px;
 }
 
+@media (prefers-color-scheme:dark){
+  .leftSection{
+    background-color: #121212;
+  }
+  .header > h5{
+    color: white;
+  }
+  .header > h2{
+    color: white;
+  }
+
+  .socialMedia > a,
+  .privacy > a{
+    color: white;
+  }
+  .rightSection{
+    background-color: #333333;
+  }
+  .arrow > img{
+    color:white;
+  }
+  .title > h5,
+  .title > p{
+    color:white;
+  }
+}
+
 @media (min-width: 481px) and (max-width: 820px) {
     .Home{
         display: flex;

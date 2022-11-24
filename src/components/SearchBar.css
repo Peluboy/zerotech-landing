@@ -34,12 +34,14 @@
 
 .btn{
     position: absolute;
-    padding: 10px 25px;
+    padding: 15px 30px;
     border-radius: 7px;
     background-color: black;
     color: white;
-    right: 8px;
+    right: 5px;
     cursor: pointer;
+    outline: none;
+    border: none;
 }
 
 input:focus{

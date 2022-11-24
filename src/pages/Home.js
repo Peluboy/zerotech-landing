@@ -143,15 +143,15 @@ function Home() {
       </div>
       <div className='footer'>
           <div className='socialMedia'>
-            <a href="#">Facebook</a>
+            <a href="https://instagram.com/peluboy_designs/">Instagram</a>
             <span className='separator'>|</span>
-            <a href="#">LinkedIn</a>
+            <a href="https://github.com/Peluboy">GitHub</a>
             <span className='separator'>|</span>
-            <a href="#">Twitter</a>
+            <a href="https://twitter.com/blvckpelu/">Twitter</a>
           </div>
 
           <div className='privacy'>
-            <a href="#">Privacy Policy</a>
+            <a href="/privacyPolicy">Privacy Policy</a>
           </div>
 
         </div>

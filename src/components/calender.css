@@ -36,13 +36,34 @@
     margin: 70px 0px 20px 0px;
 }
 
+
+button[disabled] {
+    cursor: not-allowed;
+}
+
 .btn-3{
-    padding: 10px 25px;
+    padding: 15px 30px;
     border-radius: 7px;
     background-color: black;
     color: white;
     cursor: pointer;
+    outline: none;
+    border: none;
 }
+
+@media (prefers-color-scheme:dark){
+    .calenderSection > h3{
+        color: white;
+    }
+    
+    .dateTime > h5{
+        color: #d7d7d7;
+    }
+    span.divider {
+        color: white;
+        filter: invert(1);
+    }
+  }
 
 @media (max-width:500px){
     .buttons {
