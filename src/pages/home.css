@@ -358,7 +358,7 @@ a{
     color: white;
   }
   .rightSection{
-    background-color: #333333;
+    background-color: #1b1c1c;
   }
   .arrow > img{
     color:white;
@@ -367,6 +367,9 @@ a{
   .title > p{
     color:white;
   }
+  .arrow {
+    filter: invert(1);
+}
 }
 
 @media (min-width: 481px) and (max-width: 920px) {

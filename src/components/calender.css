@@ -59,8 +59,8 @@ button[disabled] {
     .dateTime > h5{
         color: #d7d7d7;
     }
-    span.divider {
-        color: white;
+    span.divider,
+    .book > img {
         filter: invert(1);
     }
   }
