@@ -4,8 +4,8 @@ This repository contains a mini project built with React for booking services. T
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/booking-react-mini-project.git`
-2. Navigate to the project directory: `cd booking-react-mini-project`
+1. Clone the repository: `git clone https://github.com/your-usernamezerotech-landing.git`
+2. Navigate to the project directory: `cd zerotech-landing`
 3. Install dependencies: `npm install`
 
 ## Usage
