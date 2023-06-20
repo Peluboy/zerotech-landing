@@ -16,7 +16,7 @@ function Home() {
         <div className="leftContainer">
           <div className="heroSection">
             <div className="header">
-              <h5>Get started with Zebrotech</h5>
+              <h5>Get started with Zerotech</h5>
               <h2>What are you looking up-to?</h2>
               <Search placeholder="Looking for an IT service" />
             </div>
