@@ -1,72 +1,69 @@
-.calenderSection > h3{
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: -0.04em;
-    color: #181818;
-    padding: 40px 0px 0px 0px;
-    margin: 0;
+.calenderSection > h3 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.04em;
+  color: #181818;
+  padding: 40px 0px 0px 0px;
+  margin: 0;
 }
 
-.dateTime > h5{
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: -0.04em;
-    color: #403F44;
-    margin: 0;
-    /* padding: 30px 0px 10px 0px; */
+.dateTime > h5 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+  color: #403f44;
+  margin: 0;
 }
 
 .buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
 }
 
-
-.book{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 70px 0px 20px 0px;
+.book {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 70px 0px 20px 0px;
 }
-
 
 button[disabled] {
-    cursor: not-allowed;
+  cursor: not-allowed;
 }
 
-.btn-3{
-    padding: 15px 30px;
-    border-radius: 7px;
-    background-color: black;
+.btn-3 {
+  padding: 15px 30px;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .calenderSection > h3 {
     color: white;
-    cursor: pointer;
-    outline: none;
-    border: none;
-}
-
-@media (prefers-color-scheme:dark){
-    .calenderSection > h3{
-        color: white;
-    }
-    
-    .dateTime > h5{
-        color: #d7d7d7;
-    }
-    span.divider,
-    .book > img {
-        filter: invert(1);
-    }
   }
 
-@media (max-width:500px){
-    .buttons {
-        gap: 5px;
-    }
+  .dateTime > h5 {
+    color: #d7d7d7;
+  }
+  span.divider,
+  .book > img {
+    filter: invert(1);
+  }
+}
+
+@media (max-width: 500px) {
+  .buttons {
+    gap: 5px;
+  }
 }

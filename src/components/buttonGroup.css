@@ -1,39 +1,40 @@
 .customButton {
-    width: 95px;
-    height: 40px;
-    background-color: #fbfbfb;
-    color: rgb(14, 14, 14);
-    font-size: 13px;
-    border: 1.5px solid #222222;
-    border-radius: 3px;
-    cursor: pointer;
-    font-weight: 500;
+  width: 95px;
+  height: 40px;
+  background-color: #fbfbfb;
+  color: rgb(14, 14, 14);
+  font-size: 13px;
+  border: 1.5px solid #222222;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 500;
 }
 
-.active{
-    background-color: #3BBD99;
+.active {
+  background-color: #3bbd99;
+  border: none;
+  color: white;
+}
+
+.customButton:disabled {
+  background: #efefef;
+  color: black;
+  width: 95px;
+  height: 40px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .customButton {
+    background-color: white;
+  }
+
+  .customButton:disabled {
+    background: #c8c8c8;
+    color: black;
+  }
+  .active {
+    background-color: #3bbd99;
     border: none;
     color: white;
-}
-
-.customButton:disabled{
-    background: #efefef;
-    color: black;
-}
-
-@media (prefers-color-scheme:dark){
-    .customButton {
-        background-color: white;
-    }
-
-    .customButton:disabled{
-        background: #c8c8c8;
-        color: black;
-    }
-    .active{
-        background-color: #3BBD99;
-        border: none;
-        color: white;
-    }
-    
+  }
 }
